@@ -1,0 +1,10 @@
+[2025-10-28 14:11:31] SUCCESS: All sensors passed initial self-test
+[2025-10-28 14:11:31] Data logging started
+[2025-10-28 14:11:52] CRITICAL: Periodic self-test failed!
+   Total data points logged: 100
+   Last verified good data: line 100
+   Potentially suspicious data: lines 101 to 100
+   STOPPING DATA LOGGING - Please check sensor connections!
+[2025-10-28 14:12:24] SUCCESS: All sensors passed initial self-test
+[2025-10-28 14:12:24] Data logging started
+[2025-10-28 14:12:46] Periodic self-test passed at 100 data points
