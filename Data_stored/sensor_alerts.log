@@ -1,10 +1,3 @@
-[2025-10-28 14:11:31] SUCCESS: All sensors passed initial self-test
-[2025-10-28 14:11:31] Data logging started
-[2025-10-28 14:11:52] CRITICAL: Periodic self-test failed!
-   Total data points logged: 100
-   Last verified good data: line 100
-   Potentially suspicious data: lines 101 to 100
-   STOPPING DATA LOGGING - Please check sensor connections!
-[2025-10-28 14:12:24] SUCCESS: All sensors passed initial self-test
-[2025-10-28 14:12:24] Data logging started
-[2025-10-28 14:12:46] Periodic self-test passed at 100 data points
+=[2025-11-21 00:54:15] ERROR: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+[2025-11-21 00:54:33] Session ended with 43 data lines
+[2025-11-21 00:55:59] Session ended with 384 data lines
