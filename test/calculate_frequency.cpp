@@ -11,6 +11,8 @@
 this code takes the data from amount of rows from the sensors_data.csv,
 calculate time stamps differnece and gives each cycle frequency and each sensors frequency 
 
+
+WARNING THIS CODE IS NOT WORKING NOW AND WOULD GIVE WRONG VALUES BECAUSE IT IS BASED ON TIMESTAMPS NOT ACTAUL READINGS
 */
 
 int main(){
@@ -53,5 +55,6 @@ int main(){
 
     std::cout<<"Note that this calculations take into account that there is some other operations happen like calculating the diffrernece between sensors and printing the results"<<"\n";
 
+    return 0;
 
 }
