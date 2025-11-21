@@ -100,7 +100,7 @@ bool initSensor(uint8_t sensor_idx) {
     bmm350_error_codes_print_result("bmm350_init", rslt, sensor_idx);
     if (rslt != BMM350_OK) return false;
 
-    bmm350_set_odr_performance(BMM350_DATA_RATE_25HZ, BMM350_AVERAGING_8, &sensors[sensor_idx]);
+    bmm350_set_odr_performance(BMM350_DATA_RATE_50HZ, BMM350_AVERAGING_8, &sensors[sensor_idx]);
     bmm350_set_powermode(BMM350_NORMAL_MODE, &sensors[sensor_idx]);
     sensors[sensor_idx].delay_us(10000, sensors[sensor_idx].intf_ptr);
     bmm350_enable_axes(BMM350_X_EN, BMM350_Y_EN, BMM350_Z_EN, &sensors[sensor_idx]);
